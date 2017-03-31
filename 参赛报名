@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>参赛报名</title>
+	<!-- 新 Bootstrap 核心 CSS 文件 -->
+<link href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/first.css">
+<script type="text/javascript" src='js/first.js'>
+
+</script>
+    <!-- Bootstrap -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="logo">
+        <h1>~欢迎报名~</h1>
+      </div>
+      <div style="height:350px">
+
+      </div>
+      <div class="col-md-6">
+
+      </div>
+      <form method="post" action="first.php">
+       <!--  <input type="name" placeholder="姓名" name="name" value="" class="name"><p class="msg"><i class="ati"> </i>中文输入</p>
+        <b id="count">0个字符</b> -->
+        <input type="name" placeholder="姓名" name="name" value="" class="name"><p>5-25个字符，一个汉字为两个字符，推荐使用中文会员名。</p>
+        <b id="count">0个字符</b>
+        <input type="password1" placeholder="What is your password?" name="password" value="" size="6" class="password"><p>6-16个字符，请使用字母加数字或符号的组合密码，不能单独使用字母、数字或符号。</p>
+        <input type="password2" placeholder="check again your password"  name="password" value="" size="6" class="password"><p class="msg"><i class="ati">确认密码 </i></p>
+        <input type="text" name="sex" placeholder="male->m female->f" value="" class="name"><p>如果是男生填m,如果女生填f</p>
+        <input type="text" name="birth" placeholder="birth like 1995-03-03" value="" class="name">
+        <input type="text" name="birthaddr" placeholder="出生国家" value="" class="name">
+        <button type="submit" name="submit" value="send"  class="btn"  onclick="submit()"></button><p></p>
+      </form>
+    </div>
+    <div style="height:300px">
+
+    </div>
+    <div class="footer" >
+      <p>Copyright 2016-2017 NEAU ACM TEAM</p>
+    </div>
+
+
+  </body>
+</html>
