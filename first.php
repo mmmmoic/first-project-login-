@@ -10,7 +10,7 @@
                 $birth = $_POST['birth'];
                 $birthaddr = $_POST['birthaddr'];
                 echo "welcome",$name,$sex,$birth,$birthaddr;
-                $mysqli = new mysqli("localhost","root@localhost","gdragon","first_log");
+                $mysqli = new mysqli("localhost","root","gdragon","first_log");
                 $mysqli->query("set names 'utf8'");
                 $sql = "INSERT INTO mytable(name,sex,birth,birthaddr)
                 VALUES('$name','$sex','$birth','$birthaddr')";
